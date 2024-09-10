@@ -1,0 +1,61 @@
+    1  cd calisma
+    2  cd klasör1
+    3  touch liste.txt
+    4  rm liste.txt
+    5  touch liste.txt
+    6  vim liste.txt
+    7  nano liste.txt
+    8  cp liste.txt C:\Users\iamem\Desktop\calisma\klasör2 
+    9  cp liste.txt ../liste.txt
+   10  cp liste.txt ../klasör2/asd.txt
+   11  cp liste.txt ../klasör2
+   12  cd ../klasör2
+   13  rm liste.txt
+   14  cd ../klasör1
+   15  car liste.txt
+   16  cat liste.txt
+   17  head liste.txt
+   18  clear
+   19  ping
+   20  ping google.com
+   21  ping drysemt.com
+   22  systeminfo
+   23  ipconfig
+   24  git -v
+   25  git --v
+   26  git --version
+   27  git status
+   28  git init
+   29  git status
+   30  git init
+   31  git status
+   32  cd HW_10
+   33  touch text.ignore.txt
+   34  nano text_ignore.txt
+   35  nano .gitignore
+   36  cd HW_10
+   37  touch text_ignore.txt
+   38  nano .gitignore
+   39  git status
+   40  git add
+   41  git add .
+   42  git commit -m 'mesaj'
+   43  touch main_text.txt
+   44  git add .
+   45  git commit -m 'Add main_text.txt file'
+   46  git checkout -b develop
+   47  touch develop_test.txt
+   48  git add .
+   49  git commit -m 'Add develop_test txt file'
+   50  nano develop_test.txt
+   51  git status
+   52  git add .
+   53  git commit -m 'Update develop_test.txt file'
+   54  git checkout main
+   55  git merge develop
+   56  git log
+   57  git BASH
+   58  git add .
+   59  git commit -m 'update'
+   60  git push origin main
+   61  history > command_list.txt
